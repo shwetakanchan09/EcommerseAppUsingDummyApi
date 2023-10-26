@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C3C4F1"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/txtAllProduct"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+        android:foreground="@drawable/ripple"
+    android:text="Get All Product"
+    android:textSize="20sp"
+    android:textStyle="bold"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/primarycolor"/>
+   <TextView
+        android:id="@+id/txtSingleProduct"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+        android:foreground="@drawable/ripple"
+    android:text="Get Single Product"
+    android:textSize="20sp"
+    android:textStyle="bold"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/primarycolor"/>
+  <TextView
+        android:id="@+id/txtCategory"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+        android:foreground="@drawable/ripple"
+    android:text="Get Category"
+    android:textSize="20sp"
+    android:textStyle="bold"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/primarycolor"/>
+</LinearLayout>
+</LinearLayout>
